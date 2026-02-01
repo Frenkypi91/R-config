@@ -1,0 +1,20 @@
+# ============================ USER PACKAGE LIBRARY ============================
+R_LIBS_USER=${HOME}/.r
+
+# ============================ INTEL MKL CONFIGURATION =========================
+MKL_INTERFACE_LAYER=LP64
+MKL_THREADING_LAYER=INTEL
+BLAS_LIBS=/opt/intel/mkl/lib/intel64_lin/libmkl_rt.so
+LAPACK_LIBS=/opt/intel/mkl/lib/intel64_lin/libmkl_rt.so
+
+# ============================ DEFAULT STARTUP PACKAGES ========================
+R_DEFAULT_PACKAGES=utils,stats,methods,grDevices,graphics
+
+# ============================ MAXIMUM NUMBER OF DLLS ==========================
+R_MAX_NUM_DLLS=1000
+
+# ============================ R HISTORY FILE LOCATION =========================
+# R_HISTFILE=${HOME}/.Rhistory
+
+# ============================ DEFAULT BROWSER COMMAND =========================
+R_BROWSER=xdg-open
