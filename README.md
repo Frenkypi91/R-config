@@ -1,7 +1,5 @@
 # R-config
 
-# R Minimal, Fast and Robust Configuration
-
 Minimal, fast, and robust **R configuration** for scientific computing and intensive terminal-based usage.
 
 Tested on **Linux (Arch Linux)**, but compatible with any Unix-like distribution.
